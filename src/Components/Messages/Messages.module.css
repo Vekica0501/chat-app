@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 70vh;
+  }
+  
+  .message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .message .name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .message .content {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+  }
+  
+  .message.right .content {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+  }
+  
+  .message.left .content {
+    background-color: #fff;
+    align-self: flex-start;
+  }
+  
