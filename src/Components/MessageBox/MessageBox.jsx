@@ -7,7 +7,7 @@ function MessageBox({ message, currentUser }) {
 
   const messageStyle = {
     backgroundColor: user.color,
-    color: "white",
+    color: "black",
     borderRadius: "10px",
     padding: "10px",
     margin: "10px",

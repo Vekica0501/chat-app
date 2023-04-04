@@ -8,7 +8,8 @@
   .message {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    flex-grow: 1;
+    color:#0c0c0c
   }
   
   .message .name {
@@ -18,19 +19,19 @@
   }
   
   .message .content {
-    background-color: #f2f2f2;
+    background-color: #0c0c0c;
     padding: 10px;
     border-radius: 10px;
     max-width: 80%;
   }
   
   .message.right .content {
-    background-color: #dcf8c6;
+    background-color: #6de710;
     align-self: flex-end;
   }
   
   .message.left .content {
-    background-color: #fff;
+    background-color: #f00d0d;
     align-self: flex-start;
   }
   
