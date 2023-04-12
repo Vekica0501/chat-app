@@ -18,7 +18,7 @@ function InputForm({ onSendMessage, currentUser }) {
   return (
     <div className={styles.container}>
       <form className={styles.form} onSubmit={handleSubmit}>
-        <input className={styles.input} type="text" name="message" placeholder="Type a message..." />
+        <input autoFocus={true} className={styles.input} type="text" name="message" placeholder="Type a message..." />
         <button className={styles.button} type="submit">Send</button>
       </form>
     </div>

@@ -8,18 +8,16 @@ html, body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-color: #f2f2f2;
+    background-color: #bcddeb;
   }
   
   .app {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 500px;
-    height: 100%;
-    max-height: 800px;
-    border: 2px solid black;
+    border: 2px solid black; 
+    border-radius: 10px;
+    width: 400px; 
+    height: 600px; 
+    background-color: #e3daeb;
   }
+  
   

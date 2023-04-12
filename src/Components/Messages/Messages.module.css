@@ -7,31 +7,29 @@
   
   .message {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     flex-grow: 1;
-    color:#0c0c0c
-  }
-  
-  .message .name {
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .message .content {
-    background-color: #0c0c0c;
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 80%;
-  }
-  
-  .message.right .content {
-    background-color: #6de710;
     align-self: flex-end;
   }
-  
-  .message.left .content {
-    background-color: #f00d0d;
-    align-self: flex-start;
-  }
-  
+
+.message .name {
+  color: #0c0c0c; /* username color */
+}
+
+.message .content {
+  background-color: #0c0c0c;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 80%;
+  color: #fff; /* message content color */
+}
+
+.message.right .content {
+  background-color: #6de710;
+  align-self: flex-end;
+}
+
+.message.left .content {
+  background-color: #f00d0d;
+  align-self: flex-start;
+}
