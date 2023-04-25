@@ -1,5 +1,4 @@
 import React from 'react';
-//import MessageBox from '../MessageBox/MessageBox';
 import styles from './Messages.module.css';
 
 function Messages({ messages, currentUser }) {
@@ -7,8 +6,8 @@ function Messages({ messages, currentUser }) {
     <div className={styles.Messages}>
       {messages.map((message, index) => (
         <div key={index}>
-          <span style={{ color: message.user.color }}>{message.user.name}: </span>
-          <span>{message.text}</span>
+          <span style={{ color: message.member.clientData.color }}>{message.member.clientData.username}: </span>
+          <span>{message.text.text}</span>
         </div>
       ))}
     </div>
