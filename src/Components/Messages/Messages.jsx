@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Messages.module.css';
 
-function Messages({ messages, currentUser }) {
+function Messages({ messages }) {
   return (
     <div className={styles.Messages}>
       {messages.map((message, index) => (

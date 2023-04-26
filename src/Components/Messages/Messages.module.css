@@ -14,7 +14,9 @@
 
 .message .name {
   color: #0c0c0c; /* username color */
+
 }
+
 
 .message .content {
   background-color: #0c0c0c;
@@ -23,6 +25,7 @@
   max-width: 80%;
   color: #fff; /* message content color */
 }
+
 
 .message.right .content {
   background-color: #6de710;
